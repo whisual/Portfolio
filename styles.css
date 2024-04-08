@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+  }
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+}
+#header_list{
+    margin-left: 35px;   
+    list-style: none;
+    text-decoration: none;
+}
+#header_list > a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: monospace;
+
+}
+#logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 100px;
+}
+
+
+.body{
+    display: flex;
+    justify-content: space-evenly;
+}
+#body_img{
+    width: 700px ;
+}
+#body_text{
+    color: white;
+    font-size: x-large;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 70px;
+    font-family: monospace;
+    line-height: 35px;
+}
+#body_btn{
+     background-color: green;
+     width: 150px;
+     height: 40px;
+     border-radius: 20px;
+     margin-top: 30px;
+     border: none;}
+#body_btn > a{
+    text-decoration: none;
+     color: white;
+     font-family: monospace;
+}
+
+#footer_name{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: monospace;
+}
+#footer_connect{
+    color: white;
+    font-size: larger;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: monospace;
+}
+.footer_contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer_list{
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    margin-bottom: 35px;
+}
+
+/* Skills Page */
+
+.skills{
+   text-align: left;
+   margin-left: 100px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+#skills_head{
+    color: white;
+    font-size: xx-large;
+    font-family: monospace;
+}
+#lang_list{
+    color: white;
+    font-size: large;
+    font-family: monospace;
+    line-height: 30px;
+}
+
+/* Experience */
+
+.intern{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+#exp_head{
+    color: white;
+    font-size: xx-large;
+    font-family: monospace;
+}
+#exp_detail{
+    color: white;
+    font-size: large;
+    font-family: monospace;
+}
+#exp_detail > span{
+    margin-left: 700px;
+}
+
+/* Education */
+
